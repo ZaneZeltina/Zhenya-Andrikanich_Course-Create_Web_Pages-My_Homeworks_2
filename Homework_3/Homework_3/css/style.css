@@ -1,0 +1,99 @@
+
+.block__img {
+  margin: 25px auto;
+  display: block;
+}
+
+.block__title {
+  text-align: center;
+  font-size: 32px;
+  color: #a52a2a;
+  font-weight: 700;
+}
+
+p strong {
+  font-weight: 700;
+  font-size: 18px;
+  color: #7222bd;
+}
+
+.block p {
+  color: #6495ed;
+}
+
+.town__title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #7fff00;
+}
+
+.town__text {
+  color: #ff7f50;
+}
+
+.town__text span {
+  color: #b8860b;
+}
+
+.town__text span ~ span {
+  color: #6495ed;
+}
+
+.town__link {
+  color: #00008b;
+}
+
+.name h2 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #7222bd;
+}
+
+.name p {
+  color: #808080;
+}
+
+.name p span {
+  color: #ff7f50;
+}
+
+.name p span ~ span {
+  color: #8fd12b;
+}
+
+.history__title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #6495ed;
+}
+
+.history__text {
+  color: #008000;
+}
+
+.history__text a {
+  color: #00008b;
+}
+
+.history__text span {
+  color: #ffa500;
+}
+
+.history__text + p {
+  color: #ff0000;
+}
+
+#manag1 {
+  display: block;
+  margin: 25px auto;
+}
+
+.management__title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ff7f50;
+}

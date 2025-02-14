@@ -572,10 +572,390 @@ i {
 }
 
 .geography-view__text {
-	color:#0000ff;
+	color:#8fcd51;
   text-align: center;
   font-style: italic;
   margin-bottom: 10px;
 }
+
+.hydrography__title {
+	font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color:#00bfff;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.hydrography__text {
+	text-indent: 50px;
+	color:#0000ff;
+}
+
+.hydrography__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #006400;
+	color:#b1fc67;
+	line-height: 1.5;
+}
+
+.hydrography__text span {
+	color:#ff7f50;
+}
+
+.hydrography__text a {
+	color:#ee82ee;
+}
+
+.hydrography__text a:hover {
+	color: #0000ff;
+}
+
+.hydrography-city__text {
+	color:#ff0000;
+}
+
+.hydrography-city__text span {
+	color:#228b22;
+}
+
+.hydrography-city__text a {
+	color:#00bfff;
+}
+
+.hydrography-city__text a:hover {
+	color: #0000ff;
+}
+
+.hydrography-city__text a ~ a {
+	color:#b8860b;
+}
+
+.hydrography-city__text a ~ a:hover {
+	color: #0000ff;
+}
+
+.hydrography-city__text i {
+	color:#61be9f;
+}
+
+.hydrography-city__text i ~ i {
+	color:#6495ed;
+}
+
+.hydrography-river__text {
+	color:#6bc412;
+}
+
+.hydrography-river__text span {
+	color:#006400;
+}
+
+.hydrography-river__text i {
+	color:#ffff00;
+}
+
+.hydrography-river__text i ~ i {
+	color:#ffa500;
+}
+
+.hydrography__img {
+	display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+  width: 800px;
+  height: 300px;
+}
+
+.infrastructure__title {
+	font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color:#228b22;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.infrastructure__text {
+	text-indent: 50px;
+	color:#ee82ee;
+}
+
+.infrastructure__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #000;
+	color:#00ffff;
+	line-height: 1.5;
+}
+
+.infrastructure__text span {
+	color:#7fff00;
+}
+
+.infrastructure__text a {
+	color:#8b0000;
+}
+
+.infrastructure__text a:hover {
+	color: #0000ff;
+}
+
+.culture__title {
+	font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color:#b8860b;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.culture__text {
+	text-indent: 50px;
+	color:#ff1493;
+}
+
+.culture__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #ff0000;
+	color:#8a2be2;
+	line-height: 1.5;
+}
+
+.culture-city__text {
+	text-indent: 50px;
+	color:#808080;
+}
+
+.culture-city__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #ffd700;
+	color:#ff1493;
+	line-height: 1.5;
+}
+
+.culture-city__text a {
+	color:#8a2be2;
+}
+
+.culture-city__text a:hover {
+	color: #0000ff;
+}
+
+.culture-sights__title {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 26px;
+	color:#6495ed;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+
+.culture-sights__list {
+	color:#008b8b;
+}
+
+.culture-sights__list-item {
+	color:#ff1493;
+}
+
+.sport__title {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 32px;
+	color:#ffa500;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.sport__text {
+	text-indent: 50px;
+	color:#006400;
+}
+
+.sport__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #8b008b;
+	color:#ee82ee;
+	line-height: 1.5;
+}
+
+.sport__text a {
+	color:#ffa500;
+}
+
+.sport__text a:hover {
+	color: #0000ff;
+}
+
+.sport__text a ~ a {
+	color:#adff2f;
+}
+
+.sport__text a ~ a:hover {
+	color: #0000ff;
+}
+
+.sport__text span {
+	color:#ffff00;
+}
+
+.sport-europe__text {
+	color:#1e90ff;
+}
+
+.sport-europe__text a {
+	color:#6bc412;
+}
+
+.sport-europe__text a:hover {
+	color: #0000ff;
+}
+
+.sport-europe__text a ~ a {
+	color:#0000ff;
+}
+
+.sport-europe__text a ~ a:hover {
+	color: #0000ff;
+}
+
+.sport-europe__text i > a {
+	color:#a52a2a;
+}
+
+.sport-europe__text i > a:hover {
+	color: #0000ff;
+}
+
+.sport-europe__text i ~ i > a {
+	color:#61be9f;
+}
+
+.sport-europe__text i ~ i > a:hover {
+	color: #0000ff;
+}
+
+.sport-europe__text span {
+	color:#00bfff;
+}
+
+.sport-europe__text i {
+	color:#808080;
+}
+
+.sport-games__text {
+	text-indent: 50px;
+	color:#ff1493;
+}
+
+.sport-games__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #008000;
+	color:#9acd32;
+	line-height: 1.5;
+}
+
+.sport-games__text a {
+	color:#ff8c00;
+}
+
+.sport-games__text a:hover {
+	color: #0000ff;
+}
+
+.sport-games__text i > a{
+	color:#61be9f;
+}
+
+.sport-games__text i > a:hover {
+	color: #0000ff;
+}
+
+
+.cities__title {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 32px;
+	color:#ff0000;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.cities__text {
+	text-indent: 50px;
+	color:#808080;
+}
+
+.cities__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #ff1493;
+	color:#a52a2a;
+	line-height: 1.5;
+}
+
+.cities__list {
+	color:#6bc412;
+}
+
+.cities__list a {
+	color:#00bfff;
+}
+
+.cities__list a:hover {
+	color: #0000ff;
+}
+
+.cities-book__text {
+	color:#9932cc;
+	font-size: 20px;
+	font-weight: 500;
+	text-shadow: 2px 2px 3px #ff1493;
+	text-decoration: underline;
+	font-style: italic;
+	margin: 10px 0 15px;
+}
+.footer {
+	text-align: center;
+}
+
+.footer span {
+	color:#ff8c00;
+}
+
+.footer > a {
+	font-size: 18px;
+	color:#6bc412;
+	text-decoration: underline;
+}
+
+.footer > a:hover {
+	color: #0000ff;
+}
+
 
 

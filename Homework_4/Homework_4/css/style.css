@@ -500,6 +500,15 @@ i {
 .geography-river__text {
 	color:#00bfff;
 	font-style: italic;
+	text-indent: 50px;
+}
+
+.geography-river__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #0000ff;
+	color:#ff1493;
+	line-height: 1.5;
+	font-style: normal;
 }
 
 .geography-river__text a {

@@ -1,0 +1,57 @@
+/* Import fonts from Google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic&display=swap');
+
+/* Connect Fonts use local files */
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('../fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+a {
+	color: #1e90ff;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#0000ff;
+}
+
+span {
+	color:#ff1493;
+}
+
+strong {
+	color:#b22222;
+	font-size: 20px;
+}
+
+i {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 20px;
+	color:#2ecd2e;
+}
+
+.navigation {
+	padding: 20px 30px;
+	margin: 20px auto;
+	width: 23%;
+	border-radius: 20px;
+	border: 1px solid #555;
+	background-color: #d3d3d3;
+}

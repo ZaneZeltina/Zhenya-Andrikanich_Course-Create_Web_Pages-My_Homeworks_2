@@ -81,5 +81,6 @@
 		"Zadovska",
 		"Žorža"
 	],
-	"livePreview.defaultPreviewPath": "/Homework_5/Homework_5/index.html"
+	"livePreview.defaultPreviewPath": "/Homework_5/Homework_5/index.html",
+	"liveServer.settings.port": 5501
 }
